@@ -1,0 +1,38 @@
+.chat {
+    /* flex: 0.4;
+    border: 1px solid red; */
+    padding: 9px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+
+/* .chat .MuiSvgIcon-root {
+    font-size: 20px;
+} */
+
+.avatar__icon {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.chat__readIcon {
+    color: red;
+}
+
+.chat__info {
+    padding-left: 5px;
+    flex: 1;
+}
+
+.chat__info>h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.chat__info>p {
+    font-size: 9px;
+}
